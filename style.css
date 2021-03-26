@@ -1,0 +1,9 @@
+body {
+background-color: lightblue;
+}
+
+circle.png {
+object-position: 50% 100%;
+width: 100px;
+padding: 10px;
+}
