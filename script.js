@@ -5,6 +5,6 @@ function circumferenceOfCircle () {
 }
 function areaOfCircle () {
   var circleDiameter = parseInt(prompt("Please enter the diameter of circle:"))
-  var areaOfCircle () = Math.pow(circleDiameter / 2, 2) *  Math.PI
+  var areaOfCircle = Math.pow((circleDiameter / 2), 2) *  Math.PI
   document.getElementById("area_status").innerHTML = "The area of the circle is " + areaOfCircle ()
 }
