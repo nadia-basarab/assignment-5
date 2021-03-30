@@ -1,5 +1,5 @@
-element.addEventListener("click", circumferenceOfCircle);
-element.addEventListener("click", areaOfCircle);
+addEventListener('click', circumferenceOfCircle)
+addEventListener('click', areaOfCircle)
 function circumferenceOfCircle () {
   const circleDiameter = parseInt(prompt('Please enter the diameter of circle:'))
   const circumferenceOfCircle = (circleDiameter / 2) * Math.PI * 2
